@@ -1,0 +1,47 @@
+body {
+    background-image: url(assest/images/Fondo.png);
+    opacity: .8;
+}
+nav {
+    background-color: black;
+}
+
+.materiaPrima {
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card-title {
+    text-align: center;
+}
+
+.card {
+    width: 15rem;
+    height: 13rem;
+    background-color: pink;
+    margin: 5rem;
+    justify-content: center;
+}
+
+.card:hover {
+    background-color: black;    
+    cursor: pointer;
+}
+
+.card:hover .card-title {
+    color: white;
+}
+
+.card:hover .icon {
+    color: white;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    text-align: center;
+    margin: 1rem 4rem;
+}
